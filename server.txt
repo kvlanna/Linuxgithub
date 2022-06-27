@@ -1,0 +1,11 @@
+cat .ssh/id_rsa.pub
+
+ssh -i ~/.ssh/id_rsa ec2-user@3.71.99.70
+
+
+nano .ssh/authorized_keys
+
+git config --global user.name "anna"
+git config --global user.email smikoann@gmail.com
+
+
